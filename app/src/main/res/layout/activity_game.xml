@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_background"
+    tools:context=".GameActivity">
+
+    <com.example.splitwars.GameView
+        android:id="@+id/game_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.splitwars.SpaceView
+        android:id="@+id/space_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.example.splitwars.PlanetView
+        android:id="@+id/planet_view"
+        android:layout_width="155dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="500dp" />
+
+    <com.example.splitwars.MoonView
+        android:id="@+id/moon_view"
+        android:layout_width="61dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="490dp"/>
+
+    <com.example.splitwars.ShipView
+        android:id="@+id/ship_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <com.example.splitwars.ShipView2
+        android:id="@+id/ship_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>
